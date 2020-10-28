@@ -47,7 +47,7 @@
 %	but both are pretty bad.  They do remove gross lag errors, though.
 
 
-function y = filtfilt(b, a, x)
+function y = filtfilt_dnu(b, a, x)
 
 if (nargin ~= 3)
     error('Usage: y=filtfilt(b,a,x)');
